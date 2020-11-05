@@ -6,6 +6,8 @@ resources:
 - base/catalogue-db-svc.yaml
 - base/catalogue-dep.yaml
 - base/catalogue-svc.yaml
+- base/front-end-ing-cont.yaml
+- base/front-end-ing.yaml
 - base/front-end-dep.yaml
 - base/front-end-svc.yaml
 - base/orders-db-dep.yaml
@@ -14,6 +16,7 @@ resources:
 - base/orders-svc.yaml
 - base/payment-dep.yaml
 - base/payment-svc.yaml
+- base/permissions-ingress.yaml
 - base/queue-master-dep.yaml
 - base/queue-master-svc.yaml
 - base/rabbitmq-dep.yaml
