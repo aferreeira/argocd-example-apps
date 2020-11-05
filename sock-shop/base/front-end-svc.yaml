@@ -6,6 +6,7 @@ metadata:
   annotations:
     service.beta.kubernetes.io/aws-load-balancer-internal: "true"
     kubernetes.io/role/elb: 1
+    kubernetes.io/ingress.class: alb
   labels:
     name: front-end
 spec:
