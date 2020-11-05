@@ -16,7 +16,7 @@ resources:
 - base/orders-svc.yaml
 - base/payment-dep.yaml
 - base/payment-svc.yaml
-- base/permissions-ingress.yaml
+- base/rbac-ingress.yaml
 - base/queue-master-dep.yaml
 - base/queue-master-svc.yaml
 - base/rabbitmq-dep.yaml
