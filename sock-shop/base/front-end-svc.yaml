@@ -14,10 +14,5 @@ spec:
   - port: 80
     targetPort: 8079
     nodePort: 30001
-  - port: 443
-    targetPort: 8079
-    nodePort: 30002
-    protocol: TCP
-    name: https
   selector:
     name: front-end
