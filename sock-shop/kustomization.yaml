@@ -20,6 +20,7 @@ resources:
 - base/queue-master-dep.yaml
 - base/queue-master-svc.yaml
 - base/rabbitmq-dep.yaml
+- base/rabbitmq-ing.yaml
 - base/rabbitmq-svc.yaml
 - base/session-db-dep.yaml
 - base/session-db-svc.yaml
