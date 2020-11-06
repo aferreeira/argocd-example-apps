@@ -10,7 +10,7 @@ spec:
   ports:
     # the port that this service should serve on
   - port: 15672
-    name: rabbitmq
+    name: management
     targetPort: 15672
     nodePort: 30002
   - port: 5672
