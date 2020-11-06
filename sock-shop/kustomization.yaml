@@ -6,7 +6,6 @@ resources:
 - base/catalogue-db-svc.yaml
 - base/catalogue-dep.yaml
 - base/catalogue-svc.yaml
-- base/front-end-ing-cont.yaml
 - base/front-end-ing.yaml
 - base/front-end-dep.yaml
 - base/front-end-svc.yaml
