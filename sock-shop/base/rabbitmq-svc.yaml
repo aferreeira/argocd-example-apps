@@ -6,8 +6,13 @@ metadata:
   labels:
     name: rabbitmq
 spec:
+  type: NodePort
   ports:
     # the port that this service should serve on
+  - port: 15672
+    name: rabbitmq
+    targetPort: 15672
+    nodePort: 30002
   - port: 5672
     name: rabbitmq
     targetPort: 5672
