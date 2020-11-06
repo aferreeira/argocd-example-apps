@@ -6,8 +6,17 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: alb
     alb.ingress.kubernetes.io/scheme: internet-facing
+    alb.ingress.kubernetes.io/certificate-arn: "arn:aws:acm:ca-central-1:453923235837:certificate/8871e52b-4ffa-43e9-a958-d49016273ffe"
+    alb.ingress.kubernetes.io/scheme: internet-facing
+    kubernetes.io/ingress.class: alb
 spec:
   rules:
+  - https:
+      paths:
+      - path: /*
+        backend:
+          serviceName: front-end
+          servicePort: 80
   - http:
       paths:
       - path: /*
